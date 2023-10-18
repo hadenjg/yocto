@@ -2,3 +2,6 @@ tmp/*
 bitbake-cookerdaemon.log
 conf/templateconf.cfg
 cache/bb_persist_data.sqlite3
+cache/*
+downloads/*
+sstate-cache/*

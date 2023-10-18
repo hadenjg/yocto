@@ -1,0 +1,9 @@
+ctrl interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+update_config=1
+
+network={
+    ssid="DoomHose"
+    #psk="lincoln-@ve_H0us3"
+    psk=5df2a151de775c3ec7ee65f11eae48139af7651616b4c4aaea46d28c367b2135 
+}
