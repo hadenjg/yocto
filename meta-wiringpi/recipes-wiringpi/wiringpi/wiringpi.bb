@@ -13,6 +13,9 @@ do_install(){
     cp -r ${S} ${D}${MY_DESTINATION}
 }
 
-FILES_${PN} += "${MY_DESTINATION}"
+FILES:${PN} += "${MY_DESTINATION}"
+
+RDEPENDS:${PN} += "perl bash"
+
 
 # post script will somehow get into the folder I created and ./build
