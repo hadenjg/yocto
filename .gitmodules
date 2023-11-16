@@ -4,3 +4,6 @@
 [submodule "meta-raspberrypi"]
 	path = meta-raspberrypi
 	url = git@github.com:agherzan/meta-raspberrypi.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git@github.com:openembedded/meta-openembedded.git
